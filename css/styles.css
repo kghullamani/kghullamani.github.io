@@ -96,10 +96,6 @@ p {
     text-decoration: none;
 }
 
-a:visited {
-    color: #262228;
-}
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
 	margin-left: 250px;
@@ -111,8 +107,20 @@ a:visited {
     font-family: "Lato";
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+/* On smaller screens, where height is between 350-667 pixels, change the style of the sidenav and main divs */
+@media only screen and (min-device-width : 350px) 
+and (max-device-width : 667px) { 
+    .sidenav { width: 45%;}
+    #main {
+        width: 55%;
+        display: block;
+        margin-left: 165px;
+    }
+    p {
+        text-align: center;
+    }
+    #bars {
+        display: none;
+    }
+
 }
