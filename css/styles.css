@@ -110,17 +110,16 @@ p {
 /* On smaller screens, where height is between 350-667 pixels, change the style of the sidenav and main divs */
 @media only screen and (min-device-width : 350px) 
 and (max-device-width : 667px) { 
-    .sidenav { width: 45%;}
     #main {
-        width: 55%;
-        display: block;
-        margin-left: 165px;
+        width: 100%;
+        margin-left: 0px;
     }
-    p {
-        text-align: center;
+    .sidenav {
+        width: 0%;
     }
     #bars {
-        display: none;
+        left: 30px;
+        top: 10px;
+    
     }
-
 }

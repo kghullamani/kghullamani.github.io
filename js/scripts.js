@@ -1,4 +1,6 @@
-var navStatus = 1;
+var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+var navStatus;
+w < 667 ? navStatus = 0 : navStatus = 1;
 
 function toggleNav() {
     if (navStatus == 1) {
