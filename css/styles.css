@@ -7,18 +7,18 @@
 .title {
 	text-align: center;
     font-family: 'Oswald';
-    color: #262228; /* Evening */
 }
 
 body {
-    background-color: #f5f5dc;
+    color: #262228;
+    background: #CAFEFA;
 }
 
 .name {
 	text-align: center;
-	color: #262228;
 	margin-top: 35px;
     font-family: 'Oswald';
+    color: #262228;
 }
 
 .icons {
@@ -33,6 +33,7 @@ body {
 p {
     font-family: 'Lato';
     text-align: justify;
+
 }
 
 .fa {
@@ -72,7 +73,8 @@ p {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #86592d; /* Sunflowers */
+/*    background-color: #86592d;*/
+    background: #FC4445;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -105,6 +107,8 @@ p {
 #copyright {
     text-align: center;
     font-family: "Lato";
+
+
 }
 
 /* On smaller screens, where height is between 350-667 pixels, change the style of the sidenav and main divs */
