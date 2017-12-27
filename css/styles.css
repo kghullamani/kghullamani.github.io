@@ -44,8 +44,8 @@ p {
 
 #me {
     width: 150px;
-    height: 175px;
-    border-radius: 7px;
+    height: 150px;
+    border-radius: 50%;
     display: block;
     margin: auto;
     border: solid 2px black;
