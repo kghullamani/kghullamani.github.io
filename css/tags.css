@@ -1,0 +1,27 @@
+h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 span {
+  color: var(--color-red);
+}
+
+h6 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-blue);
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}

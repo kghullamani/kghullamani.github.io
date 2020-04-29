@@ -1,11 +1,8 @@
-:root {
-  --color-red: #8b0000;
-  --color-blue: #45405a;
-  --color-grey: #dcdcdc;
-}
+@import './variables.css';
+@import './tags.css';
 
 body {
-  background-color: #ffffff;
+  background-color: var(--color-background);
   color: var(--color-blue);
   margin: 0px 80px;
   font-family: 'Baloo Tamma 2', cursive;
@@ -13,37 +10,8 @@ body {
 
 header {
   padding: 20px 0;
-  display: flex;
   font-weight: 500;
-  justify-content: flex-end;
-}
-
-h2 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-h2 span {
-  color: var(--color-red);
-}
-
-h6 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--color-blue);
-}
-
-p {
-  font-size: 15px;
-  font-weight: 400;
-  text-align: justify;
-}
-
-h4 {
-  font-size: 20px;
-  font-weight: 700;
+  text-align: right;
 }
 
 .nav-link {
@@ -189,54 +157,5 @@ footer {
 }
 
 .fade-in {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  opacity: 0;
 }
