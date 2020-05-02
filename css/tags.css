@@ -5,14 +5,14 @@ h2 {
 }
 
 h2 span {
-  color: var(--color-red);
+  color: var(--color-outskirts);
 }
 
 h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  color: var(--color-blue);
+  color: var(--color-text);
 }
 
 p {

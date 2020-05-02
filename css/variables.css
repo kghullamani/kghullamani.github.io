@@ -1,6 +1,8 @@
 :root {
-  --color-red: #8b0000;
-  --color-blue: #45405a;
-  --color-grey: #dcdcdc;
-  --color-background: #ffffff;
+  --color-outskirts: '';
+  --color-text: '';
+  --color-skill: '';
+  --color-background: '';
+  --color-loader: '';
+  --color-spinner: '';
 }
