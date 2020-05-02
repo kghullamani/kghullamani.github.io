@@ -129,9 +129,6 @@ footer {
   .content {
     height: 440px;
   }
-  header {
-    text-align: center;
-  }
 }
 
 @media (max-width: 600px) {
