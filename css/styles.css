@@ -47,6 +47,7 @@ header {
   display: flex;
   align-items: flex-start;
 }
+
 .experience {
   width: 50%;
   height: 100%;
@@ -107,8 +108,8 @@ footer {
   display: none;
 }
 
-.fade-in {
-  opacity: 0;
+.page {
+  display: none;
 }
 
 .theme {

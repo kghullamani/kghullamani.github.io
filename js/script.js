@@ -11,8 +11,8 @@ const colorBeige = '#278ea5';
 const colorLightBlue = '#21e6c1';
 
 setTimeout(function () {
-  document.querySelector('.loader').style.display = 'none';
-  document.querySelector('.fade-in').style.opacity = 1;
+  document.querySelector('.loader').style.opacity = 0;
+  document.querySelector('.page').style.display = 'block';
 }, 2500);
 
 themeToggleButton.addEventListener('click', toggleTheme);
